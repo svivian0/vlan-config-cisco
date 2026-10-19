@@ -206,20 +206,6 @@ Após configurar a rede, valide e registre os resultados:
 
 **Resultado esperado:** dispositivos da mesma VLAN devem conseguir se comunicar através do trunk, desde que endereçamento e portas estejam corretos. VLANs diferentes devem permanecer separadas na camada 2; comunicação entre elas exige roteamento.
 
-## Estrutura sugerida do repositório
-
-```text
-vlan-network-lab/
-├── README.md
-├── topologia-vlan.png
-└── packet-tracer/
-    └── vlan-network-lab.pkt
-```
-
-- `README.md`: documentação, inventário, endereçamento e testes.
-- `topologia-vlan.png`: captura da topologia do laboratório.
-- `packet-tracer/vlan-network-lab.pkt`: arquivo do projeto do Cisco Packet Tracer, se disponível.
-
 ## Competências demonstradas
 
 - Conceitos de VLAN e segmentação de rede.
